@@ -20,7 +20,6 @@ fun main() {
         }
     }
     // TODO: Not Equals
-
     if (username != USER1){
         if (username == USER2)
             println("Passwort Abfrage User2")
@@ -60,6 +59,11 @@ fun main() {
     // Identisch:
     if (!user1LoggedIn && !user2LoggedIn){
         println("Neuer LoginScreen")
+    }
+
+    // Boolean kombiniert mit Integer:
+    if (user1LoggedIn && alter >= 18){
+        println("Zeige Erwachsenen Kontent an.")
     }
 
 }

@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99d7232e-cb0c-4bec-83a2-5061b5617b1b" name="Changes" comment="basic structure + Tag 16 &amp; 17">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Batch-6.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-18/Tag-18.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-18/src/Beispiele.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-18/src/inOp.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-18/src/recap.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-18/src/trycatch.kt" afterDir="false" />
+    <list default="true" id="99d7232e-cb0c-4bec-83a2-5061b5617b1b" name="Changes" comment="added .gitignore">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tag-18/src/Beispiele.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Tag-18/src/Beispiele.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tag-18/src/inOp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Tag-18/src/inOp.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tag-18/src/recap.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Tag-18/src/recap.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tag-18/src/trycatch.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Tag-18/src/trycatch.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +66,7 @@
       <updated>1673275794615</updated>
       <workItem from="1673275796059" duration="252000" />
       <workItem from="1673276090778" duration="738000" />
-      <workItem from="1673335312082" duration="12499000" />
+      <workItem from="1673335312082" duration="18688000" />
     </task>
     <task id="LOCAL-00001" summary="basic structure + Tag 16 &amp; 17">
       <created>1673365648425</created>
@@ -83,7 +75,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673365648425</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Tag 18 und .idea Ordner">
+      <created>1673423479062</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673423479063</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added .gitignore">
+      <created>1673423516767</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673423516767</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,7 +108,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="basic structure + Tag 16 &amp; 17" />
-    <option name="LAST_COMMIT_MESSAGE" value="basic structure + Tag 16 &amp; 17" />
+    <MESSAGE value="Tag 18 und .idea Ordner" />
+    <MESSAGE value="added .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="added .gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -111,6 +119,11 @@
           <url>file://$PROJECT_DIR$/Tag-17/src/LogicOperators.kt</url>
           <line>10</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/Tag-18/src/trycatch.kt</url>
+          <line>52</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

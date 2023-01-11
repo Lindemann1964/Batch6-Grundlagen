@@ -10,6 +10,5 @@ fun main(){
         eingabe = eingabe.replace(",", ".")
         kommaZahl = eingabe.toDouble()
     }
-
     println("Die Gewählte Zahl ist $kommaZahl")
 }

@@ -25,17 +25,16 @@ fun main() {
     val zahl2Str: String = readln()
     var zahl2: Int
 
-
-
     // TODO: try-catch numberTwo toInt
     try {
         zahl2 = zahl2Str.toInt()
     }
     catch (ex: Exception){
-        println(ex)
-        zahl2 = 0
-        println("Zahl 2 wurde falsch eingegeben, deswegen benutzten wir den Wert 0")
+        println(ex.message)
+        println("Zahl 2 wurde falsch eingegeben, versuchen sie es nochmal")
+        zahl2 = readln().toInt() // Vorsicht: hier könnten noch Fehler passieren
     }
+
 
     // TODO: save result
     var result = zahl1 + zahl2
@@ -44,18 +43,29 @@ fun main() {
     println("$zahl1 + $zahl2 = $result")
 
 
+    // Beispiel mit Text
+    val text = "Der Nikolaus wohnt im Schokohaus"
 
+    val indexWort = 6
+    try {
+        println(text.split(' ')[6])
+    } catch (ex: Exception){
+        println(ex.message)
+        println(ex)
+    }
 }
 
 
 // TODO: Einlese Funktion für Zahlen
-fun readNumberAsInt(input: String): Int?{
+fun readNumberAsInt(): Int?{
+    println("Geben Sie eine Zahl ein:")
+    val input = readln()
     val result: Int
     try {
         result = input.toInt()
         return result
     } catch (ex: Exception) {
-        print("ERROR: keine Valide Zahl übergeben.")
+        print("ERROR: keine Valide Zahl eingegeben.")
         return null
     }
 }
