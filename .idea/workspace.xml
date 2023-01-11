@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99d7232e-cb0c-4bec-83a2-5061b5617b1b" name="Changes" comment="added .gitignore">
+    <list default="true" id="99d7232e-cb0c-4bec-83a2-5061b5617b1b" name="Changes" comment="Tag 18">
+      <change afterPath="$PROJECT_DIR$/Tag-18/src/randomizer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Woche-3/src/Funktionen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Woche-3/src/Packages.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tag-18/src/Beispiele.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Tag-18/src/Beispiele.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tag-18/src/inOp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Tag-18/src/inOp.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tag-18/src/recap.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Tag-18/src/recap.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tag-18/src/trycatch.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Tag-18/src/trycatch.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +42,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "19",
-    "last_opened_file_path": "/Users/glucas/Documents/Projects/Modul-2-Grundlagen/Batch-6/Tag-18/src",
+    "last_opened_file_path": "/Users/glucas/Documents/Projects/Modul-2-Grundlagen/Batch-6/Woche-3/src",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -51,6 +50,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Woche-3/src" />
       <recent name="$PROJECT_DIR$/Tag-18/src" />
       <recent name="$PROJECT_DIR$/Tag-16/src" />
       <recent name="$PROJECT_DIR$/Tag-17/src" />
@@ -66,7 +66,7 @@
       <updated>1673275794615</updated>
       <workItem from="1673275796059" duration="252000" />
       <workItem from="1673276090778" duration="738000" />
-      <workItem from="1673335312082" duration="18688000" />
+      <workItem from="1673335312082" duration="21542000" />
     </task>
     <task id="LOCAL-00001" summary="basic structure + Tag 16 &amp; 17">
       <created>1673365648425</created>
@@ -89,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673423516767</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Tag 18">
+      <created>1673431622441</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673431622442</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,7 +117,8 @@
     <MESSAGE value="basic structure + Tag 16 &amp; 17" />
     <MESSAGE value="Tag 18 und .idea Ordner" />
     <MESSAGE value="added .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="added .gitignore" />
+    <MESSAGE value="Tag 18" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tag 18" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

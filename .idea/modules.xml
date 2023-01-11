@@ -5,11 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/Batch-6.iml" filepath="$PROJECT_DIR$/Batch-6.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tag-1/Tag-1.iml" filepath="$PROJECT_DIR$/Tag-1/Tag-1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tag-10/Tag-10.iml" filepath="$PROJECT_DIR$/Tag-10/Tag-10.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Tag-11/Tag-11.iml" filepath="$PROJECT_DIR$/Tag-11/Tag-11.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Tag-12/Tag-12.iml" filepath="$PROJECT_DIR$/Tag-12/Tag-12.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Tag-13/Tag-13.iml" filepath="$PROJECT_DIR$/Tag-13/Tag-13.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Tag-14/Tag-14.iml" filepath="$PROJECT_DIR$/Tag-14/Tag-14.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Tag-15/Tag-15.iml" filepath="$PROJECT_DIR$/Tag-15/Tag-15.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tag-16/Tag-16.iml" filepath="$PROJECT_DIR$/Tag-16/Tag-16.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tag-17/Tag-17.iml" filepath="$PROJECT_DIR$/Tag-17/Tag-17.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tag-18/Tag-18.iml" filepath="$PROJECT_DIR$/Tag-18/Tag-18.iml" />
@@ -22,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/Tag-8/Tag-8.iml" filepath="$PROJECT_DIR$/Tag-8/Tag-8.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tag-9/Tag-9.iml" filepath="$PROJECT_DIR$/Tag-9/Tag-9.iml" />
       <module fileurl="file://$PROJECT_DIR$/Woche-1/Woche-1.iml" filepath="$PROJECT_DIR$/Woche-1/Woche-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Woche-3/Woche-3.iml" filepath="$PROJECT_DIR$/Woche-3/Woche-3.iml" />
     </modules>
   </component>
 </project>
