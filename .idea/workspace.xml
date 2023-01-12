@@ -1,51 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99d7232e-cb0c-4bec-83a2-5061b5617b1b" name="Changes" comment="Marvins Code von Woche 3 hinzugefügt">
-      <change afterPath="$PROJECT_DIR$/Tag-1/src/CompileError.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-1/src/Flow.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-1/src/Program.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-1/src/RuntimeError.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-10/src/Maps2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-10/src/Sets.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-2/src/Booleans.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-2/src/Doubles.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-2/src/Integers.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-2/src/Strings.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-2/src/Variables.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-3/src/Compile.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-3/src/Debug.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-3/src/ReadPrint.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-3/src/Recap.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-3/src/Runtime.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-4/src/Addition.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-4/src/Division.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-4/src/Modulo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-4/src/Multiplication.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-4/src/Null.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-4/src/Recap.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-4/src/Subtraction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-5/src/Conversion.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-5/src/Recap.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-5/src/Shortcuts.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-6/src/IndexOutOfBounds.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-6/src/Lists.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-6/src/Recap.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-7/src/Examples.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-7/src/Function1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-7/src/ListDifferences.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-7/src/ListErrors.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-7/src/MutableLists.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-7/src/Recap.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-8/src/Exercise1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-8/src/Exercise2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-8/src/Functions2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-8/src/Recap.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-9/src/Maps1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-9/src/Recap.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-9/src/Recap1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-9/src/Recap2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-9/src/Recap3.kt" afterDir="false" />
+    <list default="true" id="99d7232e-cb0c-4bec-83a2-5061b5617b1b" name="Changes" comment="Wochen 1 und 2">
+      <change afterPath="$PROJECT_DIR$/Tag-19/Tag-19.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tag-19/src/LucasFilms.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tag-19/src/LucasFilmsLösung.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tag-19/Übungsaufgabe-ListenUndMaps.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,9 +43,10 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "19",
-    "last_opened_file_path": "/Users/glucas/Documents/Projects/Modul-2-Grundlagen/Batch-6/Tag-10/src",
+    "last_opened_file_path": "/Users/glucas/Documents/Projects/Modul-2-Grundlagen/Batch-6/Tag-19/src",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -91,11 +54,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Tag-19/src" />
       <recent name="$PROJECT_DIR$/Tag-10/src" />
       <recent name="$PROJECT_DIR$/Tag-9/src" />
       <recent name="$PROJECT_DIR$/Tag-8/src" />
       <recent name="$PROJECT_DIR$/Tag-7/src" />
-      <recent name="$PROJECT_DIR$/Tag-6/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Tag-19" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -108,7 +74,7 @@
       <updated>1673275794615</updated>
       <workItem from="1673275796059" duration="252000" />
       <workItem from="1673276090778" duration="738000" />
-      <workItem from="1673335312082" duration="26488000" />
+      <workItem from="1673335312082" duration="35907000" />
     </task>
     <task id="LOCAL-00001" summary="basic structure + Tag 16 &amp; 17">
       <created>1673365648425</created>
@@ -145,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673444489749</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Wochen 1 und 2">
+      <created>1673451932728</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673451932728</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,7 +141,8 @@
     <MESSAGE value="added .gitignore" />
     <MESSAGE value="Tag 18" />
     <MESSAGE value="Marvins Code von Woche 3 hinzugefügt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Marvins Code von Woche 3 hinzugefügt" />
+    <MESSAGE value="Wochen 1 und 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wochen 1 und 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -182,6 +156,11 @@
           <url>file://$PROJECT_DIR$/Tag-18/src/trycatch.kt</url>
           <line>52</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/Tag-19/src/LucasFilms.kt</url>
+          <line>183</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
