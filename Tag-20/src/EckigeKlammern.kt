@@ -12,12 +12,12 @@ fun main(){
     einkaufswagen[3] = "Sahne"
 
     // Vorsicht mit IndexOutOfBoundsException!
-    //einkaufwagen[-1]
-    //einkaufwagen[5]
+    //einkaufswagen[-1]
+    //einkaufswagen[5]
 
     /* TODO:
           Map Indizierung
-            - Indizierung via Key (=Schlüssel)
+            - Indizierung via Key (=Schlüssel) -> Datentypen beachten
             - Aufpassen mit null
      */
     val artikelListe = mutableMapOf(
@@ -28,16 +28,18 @@ fun main(){
         "Zitrone" to 0.34
     )
 
-    // Werte hinzufügen
-    artikelListe["Parmesan"] = 4.20
-
     // Werte abfragen: Vorsicht mit Null
     val sahnePreis: Double? = artikelListe["Sahne"]      // 0.67
     val spagettiPreis: Double? = artikelListe["spageti"] // null
-    val zitronePreis: Double = artikelListe["Zitrone"]!!
+    var zitronePreis: Double = artikelListe["Zitrone"]!!
 
     // Vorsicht: NullPointerException
-    //artikelListe["zitrone"]!!
+    // zitronePreis = artikelListe["zitrone"]!! // NullPointerException
+
+    // Werte hinzufügen
+    artikelListe["Parmesan"] = 4.20
+    artikelListe["Sahne"] = 0.8             // Existierende Schlüssel werden überschrieben
+
 
 
     /* TODO:
@@ -48,6 +50,8 @@ fun main(){
 
     // Werte abfragen
     vorname[0]  // M
+    vorname[1]  // a
+    //vorname[5]  // String Index Out Of Bounds Exception
 
     // Vorsicht: Strings sind nicht mutable (=veränderbar)
     //nachname[1] = 'a'
@@ -56,5 +60,8 @@ fun main(){
     val nachName = StringBuilder("Musterfrau")
     nachName[1] = 'a'
     println(nachName) // Masterfrau
+    // man kann von und zu StringBuilder konvertieren
+    StringBuilder(vorname)
+    nachName.toString()
 
 }

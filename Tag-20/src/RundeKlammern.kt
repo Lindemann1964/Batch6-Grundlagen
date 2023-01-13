@@ -4,9 +4,9 @@ fun main(){
     // Ausführungsreihenfolge
         // Beispiel 1
         val result1 = (2 + 3) * 5
-        println("(2 + 3) * 5 = $result1")
+        println("(2 + 3) * 5 = $result1") // 25
 
-        val result2 = 2 + (3 * 5)
+        val result2 = 2 + (3 * 5)         // 17
         println("2 + (3 * 5) = $result2\n")
 
         // Beispiel 2
@@ -21,7 +21,7 @@ fun main(){
         val enemyAlive = false
 
         val result5 = !(playerAlive && enemyAlive)
-        val result6 = !playerAlive &&  enemyAlive
+        val result6 = (!playerAlive) &&  enemyAlive
 
         println("Result 5: $result5")
         println("Result 6: $result6\n")
@@ -67,23 +67,20 @@ fun bedingungen(){
     val temperature = (-10.. 30).random()
 
     // If
-    if (isRainy) {
-        if (temperature < 4)
+    if (isRainy) {                              // Bedingung: regnet es heute?
+        if (temperature < 4)                    // Bedingung: ist die Temperatur < 4°
             println("Es schneit heute.")
         else
             println("Es regnet heute.")
     }
 
     // When
-    when (temperature){
+    when (temperature){                         // Bedingung: aktuelle Temperatur
         30 -> println("Heute absolute höchst Temperatur von 30°C!!")
         in 20..29 -> println("Heute ist es angenehm warm :)")
         in 10..19 -> println("Heute ist es weder kalt, noch warm. ")
         in 0 .. 9 -> println("Heute ist es leicht kalt.")
-        in -10 .. 0 -> println("Heute ist es eiskalt :(")
+        in -10 .. 0 -> println("Heute ist es eiskalt :( ")
         else -> println("Störung an unserem Thermometer")
     }
-
-
-
 }

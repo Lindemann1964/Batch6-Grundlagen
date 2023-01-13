@@ -8,6 +8,7 @@ fun main() {
      */
 
     val beispielName = zufallsNamen()
+
     println("Name: $beispielName")
 
     println("Alter: ${altersEingabe()}")    // geschwungene Klammer für Code Block innerhalb Strings
@@ -60,6 +61,7 @@ val nachNamen = listOf(
     "Zimmermann"
 )
 
+
 /* TODO:
     Funktionen
        !Vorsicht: RückgabeWerte müssen in allen Zweigen einer Funktion returned werden
@@ -84,7 +86,7 @@ fun altersEingabe(): Int
         val alter = readln().toInt()
         return alter
     }
-    catch (ex: Exception) { // Geschwungene Klammer für Try-Block
+    catch (ex: Exception) { // Geschwungene Klammer für Catch-Block
         println("Alter wurde falsch eingegeben")
         return altersEingabe()
     }
