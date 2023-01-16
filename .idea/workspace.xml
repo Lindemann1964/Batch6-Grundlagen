@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99d7232e-cb0c-4bec-83a2-5061b5617b1b" name="Changes" comment="Tag 20">
+      <change afterPath="$PROJECT_DIR$/Tag-21/Tag-21.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tag-21/src/Bank.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tag-21/src/LogIn.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tag-21/src/Spiel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tag-21/src/recap.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tag-21/src/while.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tag-20/src/EckigeKlammern.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Tag-20/src/EckigeKlammern.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tag-20/src/GeschwungeneKlammern.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Tag-20/src/GeschwungeneKlammern.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tag-20/src/RundeKlammern.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Tag-20/src/RundeKlammern.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tag-20/src/SpitzeKlammern.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Tag-20/src/SpitzeKlammern.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +48,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "19",
-    "last_opened_file_path": "/Users/glucas/Documents/Projects/Modul-2-Grundlagen/Batch-6/Tag-20/src",
+    "last_opened_file_path": "/Users/glucas/Documents/Projects/Modul-2-Grundlagen/Batch-6/Tag-21/src",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -52,11 +56,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Tag-21/src" />
       <recent name="$PROJECT_DIR$/Tag-20/src" />
       <recent name="$PROJECT_DIR$/Tag-19/src" />
       <recent name="$PROJECT_DIR$/Tag-10/src" />
       <recent name="$PROJECT_DIR$/Tag-9/src" />
-      <recent name="$PROJECT_DIR$/Tag-8/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Tag-19" />
@@ -72,7 +76,7 @@
       <updated>1673275794615</updated>
       <workItem from="1673275796059" duration="252000" />
       <workItem from="1673276090778" duration="738000" />
-      <workItem from="1673335312082" duration="53165000" />
+      <workItem from="1673335312082" duration="61029000" />
     </task>
     <task id="LOCAL-00001" summary="basic structure + Tag 16 &amp; 17">
       <created>1673365648425</created>
@@ -130,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673597041870</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Tag 20">
+      <created>1673603499308</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1673603499308</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
