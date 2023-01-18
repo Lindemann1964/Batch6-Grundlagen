@@ -13,14 +13,14 @@ fun main(){
 
 }
 
-/* TODO: Lässt die SpielerIn eine Hand auswählen
-         - Optionen Anzeigen
-         - Auswahl treffen
-         - falls falsche Auswahl, wiederhole die Funktion
-         - gebe die Auswahl zurück
- */
-fun handAuswahl(): String{
 
+fun handAuswahl(): String{
+    /* Lässt die SpielerIn eine Hand auswählen
+             - Optionen Anzeigen
+             - Auswahl treffen
+             - falls falsche Auswahl, wiederhole die Funktion
+             - gebe die Auswahl zurück
+     */
     println("Wähle etwas aus")
     for (i in options){
         println(i)
@@ -88,16 +88,14 @@ fun vergleich(hand1: String, hand2: String){
     }
 }
 
-
-/* TODO: Diese Funktion spielt 1 Hand
-         - wähle zufällig für den Computer
-         - lass den Spieler eine Hand auswählen
-         - vergleiche wer gewonnen hat,
-         - bei Unentschieden, spiele nochmal
-         - wenn jemand gewinnt, bekommen sie einen Punkt
- */
 fun playGame(){
-
+    /* Diese Funktion spielt 1 Hand
+             - wähle zufällig für den Computer
+             - lass den Spieler eine Hand auswählen
+             - vergleiche wer gewonnen hat,
+             - bei Unentschieden, spiele nochmal
+             - wenn jemand gewinnt, bekommen sie einen Punkt
+     */
     var hand1 = handAuswahl()
     var hand2 = options.random()
 
