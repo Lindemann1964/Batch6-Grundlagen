@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99d7232e-cb0c-4bec-83a2-5061b5617b1b" name="Changes" comment="Tag 22 (5.2): For Schleifen. Do-While Schleifen">
-      <change afterPath="$PROJECT_DIR$/Tag-23/Tag-23.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-23/src/Angeln.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-23/src/BuchstabenZaehlen.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-23/src/For.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-23/src/Scope.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-23/src/Smooties.kt" afterDir="false" />
+    <list default="true" id="99d7232e-cb0c-4bec-83a2-5061b5617b1b" name="Changes" comment="Tag 23 (5.3): Schleifen übung">
+      <change afterPath="$PROJECT_DIR$/Tag-24/Tag-24.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tag-24/src/DrachenKampf.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tag-24/src/Hangman.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tag-24/src/Saftladen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tag-24/src/break.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tag-22/src/SchereSteinPapier.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Tag-23/src/SchereSteinPapier.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tag-23/src/BuchstabenZaehlen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Tag-23/src/BuchstabenZaehlen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tag-23/src/SchereSteinPapier.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Tag-24/src/SchereSteinPapier.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tag-23/src/Smooties.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Tag-24/src/Smooties.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +50,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "19",
-    "last_opened_file_path": "/Users/glucas/Documents/Projects/Modul-2-Grundlagen/Batch-6/Tag-23/src",
+    "last_opened_file_path": "/Users/glucas/Documents/Projects/Modul-2-Grundlagen/Batch-6/Tag-24/src",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -57,11 +58,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Tag-24/src" />
       <recent name="$PROJECT_DIR$/Tag-23/src" />
       <recent name="$PROJECT_DIR$/Tag-22/src" />
       <recent name="$PROJECT_DIR$/Tag-21/src" />
       <recent name="$PROJECT_DIR$/Tag-20/src" />
-      <recent name="$PROJECT_DIR$/Tag-19/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Tag-19" />
@@ -77,7 +78,8 @@
       <updated>1673275794615</updated>
       <workItem from="1673275796059" duration="252000" />
       <workItem from="1673276090778" duration="738000" />
-      <workItem from="1673335312082" duration="78920000" />
+      <workItem from="1673335312082" duration="79842000" />
+      <workItem from="1674112900670" duration="7980000" />
     </task>
     <task id="LOCAL-00001" summary="basic structure + Tag 16 &amp; 17">
       <created>1673365648425</created>
@@ -156,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673949098846</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Tag 23 (5.3): Schleifen übung">
+      <created>1674034516157</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1674034516158</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +193,8 @@
     <MESSAGE value="Tag 20" />
     <MESSAGE value="Tag 21 (5.1): Schleifen. While Schleifen" />
     <MESSAGE value="Tag 22 (5.2): For Schleifen. Do-While Schleifen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tag 22 (5.2): For Schleifen. Do-While Schleifen" />
+    <MESSAGE value="Tag 23 (5.3): Schleifen übung" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tag 23 (5.3): Schleifen übung" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

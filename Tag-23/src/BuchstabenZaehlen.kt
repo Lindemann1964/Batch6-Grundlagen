@@ -1,6 +1,6 @@
 fun main(){
 
-    val songText = """
+    var songText = """
         May I have your attention, please? 
         May I have your attention, please? 
         Will the real Slim Shady please stand up? 
@@ -16,7 +16,6 @@ fun main(){
         Dr. Dre's dead, he's locked in my basement (haha) 
     """
 
-    // Gregor Lösung
 
     var zaehler = mutableMapOf<Char, Int>()
 
@@ -35,5 +34,52 @@ fun main(){
     for (buchstabe in zaehler.keys.sorted()){
         println("Der Buchstabe '$buchstabe' kommt ${zaehler[buchstabe]} mal vor")
     }
+
+    println()
+    println()
+
+    var bereitsVorgelesen = mutableSetOf<Char>()
+    for (anzahl in zaehler.values.sorted()){
+        for (buchstabe in zaehler.keys){
+            if (zaehler[buchstabe] == anzahl && buchstabe !in bereitsVorgelesen){
+                println("Der Buchstabe '$buchstabe' kommt $anzahl mal vor")
+                bereitsVorgelesen.add(buchstabe)
+            }
+        }
+    }
+
+
+    /* Anzahl Worte:
+            anzahl Leerzeichen zählen
+     */
+
+    songText = songText.lowercase()
+
+    var satzZeichen = listOf(",", "?", ".","\t", "\n")
+
+    for (zeichen in satzZeichen){
+        songText = songText.replace(zeichen, "")
+    }
+    songText = songText.replace("    ", " ")
+    songText = songText.replace("   ", " ")
+    songText = songText.replace("  ", " ")
+
+
+    var wortZaehler = mutableMapOf<String, Int>()
+
+    var wortListe = songText.split(' ')
+
+    for (wort in wortListe.sorted()){
+        if (wort.length > 1 && wort[1] == 'a'){
+            if (wort in wortZaehler.keys){
+                wortZaehler[wort] = wortZaehler[wort]!! + 1
+            }
+            else {
+                wortZaehler[wort] = 1
+            }
+        }
+    }
+
+    println(wortZaehler)
 
 }

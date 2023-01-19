@@ -13,6 +13,19 @@ fun main(){
 
 }
 
+fun playGame(){
+    /* Diese Funktion spielt 1 Hand
+             - wähle zufällig für den Computer
+             - lass den Spieler eine Hand auswählen
+             - vergleiche wer gewonnen hat,
+             - bei Unentschieden, spiele nochmal
+             - wenn jemand gewinnt, bekommen sie einen Punkt
+     */
+    var hand1 = handAuswahl()
+    var hand2 = options.random()
+
+    vergleich(hand1, hand2)
+}
 
 fun handAuswahl(): String{
     /* Lässt die SpielerIn eine Hand auswählen
@@ -86,20 +99,4 @@ fun vergleich(hand1: String, hand2: String){
             }
         }
     }
-}
-
-fun playGame(){
-    /* Diese Funktion spielt 1 Hand
-             - wähle zufällig für den Computer
-             - lass den Spieler eine Hand auswählen
-             - vergleiche wer gewonnen hat,
-             - bei Unentschieden, spiele nochmal
-             - wenn jemand gewinnt, bekommen sie einen Punkt
-     */
-    var hand1 = handAuswahl()
-    var hand2 = options.random()
-
-    vergleich(hand1, hand2)
-
-
 }
