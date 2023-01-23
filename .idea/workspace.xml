@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99d7232e-cb0c-4bec-83a2-5061b5617b1b" name="Changes" comment="Tag 23 (5.3): Schleifen übung">
-      <change afterPath="$PROJECT_DIR$/Tag-24/Tag-24.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-24/src/DrachenKampf.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-24/src/Hangman.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-24/src/Saftladen.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-24/src/break.kt" afterDir="false" />
+    <list default="true" id="99d7232e-cb0c-4bec-83a2-5061b5617b1b" name="Changes" comment="Tag 25 (5.5): Praxis: Hangman">
       <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tag-23/src/BuchstabenZaehlen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Tag-23/src/BuchstabenZaehlen.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tag-23/src/SchereSteinPapier.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Tag-24/src/SchereSteinPapier.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tag-23/src/Smooties.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Tag-24/src/Smooties.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tag-24/src/DrachenKampf.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Tag-25/src/DrachenKampf.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tag-24/src/Hangman.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Tag-25/src/Hangman.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tag-24/src/Saftladen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Tag-25/src/Saftladen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tag-24/src/SchereSteinPapier.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Tag-25/src/SchereSteinPapier.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tag-24/src/Smooties.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Tag-24/src/Smooties.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +76,7 @@
       <workItem from="1673275796059" duration="252000" />
       <workItem from="1673276090778" duration="738000" />
       <workItem from="1673335312082" duration="79842000" />
-      <workItem from="1674112900670" duration="7980000" />
+      <workItem from="1674112900670" duration="15522000" />
     </task>
     <task id="LOCAL-00001" summary="basic structure + Tag 16 &amp; 17">
       <created>1673365648425</created>
@@ -165,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674034516158</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Tag 24 (5.4): Break und Continue">
+      <created>1674121535197</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1674121535198</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +198,9 @@
     <MESSAGE value="Tag 21 (5.1): Schleifen. While Schleifen" />
     <MESSAGE value="Tag 22 (5.2): For Schleifen. Do-While Schleifen" />
     <MESSAGE value="Tag 23 (5.3): Schleifen übung" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tag 23 (5.3): Schleifen übung" />
+    <MESSAGE value="Tag 24 (5.4): Break und Continue" />
+    <MESSAGE value="Tag 25 (5.5): Praxis: Hangman" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tag 25 (5.5): Praxis: Hangman" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

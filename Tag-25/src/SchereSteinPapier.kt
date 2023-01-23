@@ -39,15 +39,12 @@ fun handAuswahl(): String{
         println(i)
     }
     var spielzug: String
-
     var richtigeEingabe: Boolean
 
     do {
         spielzug = readln().capitalize()
         when(spielzug){
-            "Schere" -> richtigeEingabe = true
-            "Stein" -> richtigeEingabe = true
-            "Papier"-> richtigeEingabe = true
+            in options -> richtigeEingabe = true
             else -> {
                 println("Ungültige Auswahl. Neue Eingabe:")
                 richtigeEingabe = false
@@ -60,6 +57,9 @@ fun handAuswahl(): String{
 
 // Wir nehmen an: Hand1 gehoert zum Spieler, Hand2 gehoert dem Computer
 fun vergleich(hand1: String, hand2: String){
+    println("\nDer Spieler wählte $hand1")
+    println("Der PC wählte $hand2")
+
     if (hand1 == "Schere"){
         when (hand2){
             "Papier" -> {
@@ -99,4 +99,8 @@ fun vergleich(hand1: String, hand2: String){
             }
         }
     }
+
+    println("Aktueller Punktestand: $scorePlayer : $scoreComputer")
+    println()
+
 }

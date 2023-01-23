@@ -56,7 +56,7 @@ fun bestellungenAbarbeiten(){
      */
     var i = 0
 
-    while (i < bestellungen.size){
+    while (i < bestellungen.size){  // for (i in bestellungen.indices)
         var bestellung = bestellungen[i]
 
         var gesamtPreis = 0.0
@@ -73,16 +73,11 @@ fun bestellungenAbarbeiten(){
         }
 
         println("Bestellung #$i kostet $gesamtPreis")
-
-
         kasse += gesamtPreis
-
         i++
     }
 
     bestellungen.clear()
-
     println("Wir haben nun $kasse € in der Kasse")
-
 
 }
