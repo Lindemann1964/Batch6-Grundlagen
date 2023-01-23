@@ -1,6 +1,6 @@
 // Zu Beginn spielen wir nur mit Worten, die 5 Buchstaben enthalten
 val wortListe = listOf("Apfel", "Birne", "Sport", "Kampf", "super", "eitel",
-    "Honig", "Engel", "innen", "Angst", "Durst", "Zecke",
+    "Honig", "Engel", "innen", "Angst", "Durst", "Zecke", "Liebe",
     "Biene", "Arena", "Traum", "Vogel", "Bingo", "Akita", "Vögel"
 )
 var lives: Int = 5

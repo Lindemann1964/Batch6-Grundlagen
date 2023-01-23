@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99d7232e-cb0c-4bec-83a2-5061b5617b1b" name="Changes" comment="Tag 25 (5.5): Praxis: Hangman">
+      <change afterPath="$PROJECT_DIR$/Tag-25/Tag-25.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tag-26/Tag-26.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tag-26/src/ClassExamples.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tag-26/src/PizzaMargherita.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tag-26/src/PizzaParma.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tag-26/src/PizzaSalami.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tag-26/src/Pizzaria.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tag-26/src/Recap.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tag-24/src/DrachenKampf.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Tag-25/src/DrachenKampf.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tag-24/src/Hangman.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Tag-25/src/Hangman.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tag-24/src/Saftladen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Tag-25/src/Saftladen.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tag-24/src/SchereSteinPapier.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Tag-25/src/SchereSteinPapier.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tag-24/src/Smooties.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Tag-24/src/Smooties.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tag-25/src/Hangman.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Tag-25/src/Hangman.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +51,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "19",
-    "last_opened_file_path": "/Users/glucas/Documents/Projects/Modul-2-Grundlagen/Batch-6/Tag-24/src",
+    "last_opened_file_path": "/Users/glucas/Documents/Projects/Modul-2-Grundlagen/Batch-6/Tag-26/src",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -55,11 +59,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Tag-26/src" />
       <recent name="$PROJECT_DIR$/Tag-24/src" />
       <recent name="$PROJECT_DIR$/Tag-23/src" />
       <recent name="$PROJECT_DIR$/Tag-22/src" />
       <recent name="$PROJECT_DIR$/Tag-21/src" />
-      <recent name="$PROJECT_DIR$/Tag-20/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Tag-19" />
@@ -76,7 +80,7 @@
       <workItem from="1673275796059" duration="252000" />
       <workItem from="1673276090778" duration="738000" />
       <workItem from="1673335312082" duration="79842000" />
-      <workItem from="1674112900670" duration="15522000" />
+      <workItem from="1674112900670" duration="22648000" />
     </task>
     <task id="LOCAL-00001" summary="basic structure + Tag 16 &amp; 17">
       <created>1673365648425</created>
@@ -169,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674121535198</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Tag 25 (5.5): Praxis: Hangman">
+      <created>1674457970765</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1674457970765</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
