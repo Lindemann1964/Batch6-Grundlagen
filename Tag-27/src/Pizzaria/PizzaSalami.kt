@@ -1,3 +1,5 @@
+package Pizzaria
+
 class PizzaSalami {
     // Eigenschaften
     var preis = 8.99
