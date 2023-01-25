@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99d7232e-cb0c-4bec-83a2-5061b5617b1b" name="Changes" comment="Tag 26 (5.5): Praxis: Hangman">
-      <change afterPath="$PROJECT_DIR$/Tag-27/Tag-27.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-27/src/ClassExamples.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-27/src/Pizzaria/Pizza.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-27/src/Pizzaria/PizzaTonno.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-27/src/main.kt" afterDir="false" />
+    <list default="true" id="99d7232e-cb0c-4bec-83a2-5061b5617b1b" name="Changes" comment="Tag 27 (6.2): Konstruktoren">
+      <change afterPath="$PROJECT_DIR$/Tag-28/Tag-28.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tag-28/src/Fahrrad/Bicycle.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tag-28/src/Fahrrad/MountainBike.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tag-28/src/Fahrrad/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tag-28/src/Pizzaria/Pizza.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tag-28/src/Pizzaria/PizzaSalame.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tag-28/src/Pizzaria/PizzaTonno.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tag-28/src/Pizzaria/pizzeria2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tag-28/src/recap.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tag-26/src/PizzaMargherita.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Tag-27/src/Pizzaria/PizzaMargherita.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tag-26/src/PizzaParma.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Tag-27/src/Pizzaria/PizzaParma.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tag-26/src/PizzaSalami.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Tag-27/src/Pizzaria/PizzaSalami.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tag-26/src/Pizzaria.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Tag-27/src/Pizzaria/Pizzaria.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tag-27/src/ClassExamples.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Tag-27/src/ClassExamples.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +53,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "19",
-    "last_opened_file_path": "/Users/glucas/Documents/Projects/Modul-2-Grundlagen/Batch-6/Tag-27/src",
+    "last_opened_file_path": "/Users/glucas/Documents/Projects/Modul-2-Grundlagen/Batch-6/Tag-28/src",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -60,17 +61,19 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Tag-28/src" />
       <recent name="$PROJECT_DIR$/Tag-27/src" />
       <recent name="$PROJECT_DIR$/Tag-26/src" />
       <recent name="$PROJECT_DIR$/Tag-24/src" />
       <recent name="$PROJECT_DIR$/Tag-23/src" />
-      <recent name="$PROJECT_DIR$/Tag-22/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Tag-28/src/Pizzaria" />
       <recent name="$PROJECT_DIR$/Tag-27/src/Pizzaria" />
       <recent name="$PROJECT_DIR$/Tag-19" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="Fahrrad" />
       <recent name="Pizzaria" />
     </key>
   </component>
@@ -86,7 +89,8 @@
       <workItem from="1673276090778" duration="738000" />
       <workItem from="1673335312082" duration="79842000" />
       <workItem from="1674112900670" duration="23667000" />
-      <workItem from="1674545385064" duration="7844000" />
+      <workItem from="1674545385064" duration="7891000" />
+      <workItem from="1674631751957" duration="4117000" />
     </task>
     <task id="LOCAL-00001" summary="basic structure + Tag 16 &amp; 17">
       <created>1673365648425</created>
@@ -193,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674466983327</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Tag 27 (6.2): Konstruktoren">
+      <created>1674554560033</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1674554560033</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +236,8 @@
     <MESSAGE value="Tag 24 (5.4): Break und Continue" />
     <MESSAGE value="Tag 25 (5.5): Praxis: Hangman" />
     <MESSAGE value="Tag 26 (5.5): Praxis: Hangman" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tag 26 (5.5): Praxis: Hangman" />
+    <MESSAGE value="Tag 27 (6.2): Konstruktoren" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tag 27 (6.2): Konstruktoren" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -254,6 +266,16 @@
           <url>file://$PROJECT_DIR$/Tag-27/src/main.kt</url>
           <line>4</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/Tag-28/src/Fahrrad/main.kt</url>
+          <line>9</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/Tag-28/src/Fahrrad/main.kt</url>
+          <line>5</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

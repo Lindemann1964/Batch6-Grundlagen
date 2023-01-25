@@ -21,7 +21,6 @@ fun main(){
 
 class Wuerfel(var seiten: Int){
 
-
     fun wuerfeln(): Int
     {
         return (1..seiten).random()
