@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99d7232e-cb0c-4bec-83a2-5061b5617b1b" name="Changes" comment="Tag 27 (6.2): Konstruktoren">
-      <change afterPath="$PROJECT_DIR$/Tag-28/Tag-28.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-28/src/Fahrrad/Bicycle.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-28/src/Fahrrad/MountainBike.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-28/src/Fahrrad/main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-28/src/Pizzaria/Pizza.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-28/src/Pizzaria/PizzaSalame.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-28/src/Pizzaria/PizzaTonno.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-28/src/Pizzaria/pizzeria2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-28/src/recap.kt" afterDir="false" />
+    <list default="true" id="99d7232e-cb0c-4bec-83a2-5061b5617b1b" name="Changes" comment="Tag 28 (6.3): Vererbung">
+      <change afterPath="$PROJECT_DIR$/Tag-29/Tag-29.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tag-29/src/Bank/Bank.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tag-29/src/Bank/Konto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tag-29/src/Bank/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tag-29/src/Moebelhaus/Bett.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tag-29/src/Moebelhaus/Couch.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tag-29/src/Moebelhaus/MoebelStueck.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tag-29/src/Moebelhaus/Möbelhaus.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tag-29/src/Moebelhaus/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tag-29/src/User.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tag-29/src/UserData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tag-29/src/main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tag-27/src/ClassExamples.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Tag-27/src/ClassExamples.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -53,7 +55,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "19",
-    "last_opened_file_path": "/Users/glucas/Documents/Projects/Modul-2-Grundlagen/Batch-6/Tag-28/src",
+    "last_opened_file_path": "/Users/glucas/Documents/Projects/Modul-2-Grundlagen/Batch-6/Tag-29/src",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -61,11 +63,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Tag-29/src" />
       <recent name="$PROJECT_DIR$/Tag-28/src" />
       <recent name="$PROJECT_DIR$/Tag-27/src" />
       <recent name="$PROJECT_DIR$/Tag-26/src" />
       <recent name="$PROJECT_DIR$/Tag-24/src" />
-      <recent name="$PROJECT_DIR$/Tag-23/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Tag-28/src/Pizzaria" />
@@ -73,6 +75,7 @@
       <recent name="$PROJECT_DIR$/Tag-19" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="Moebelhaus" />
       <recent name="Fahrrad" />
       <recent name="Pizzaria" />
     </key>
@@ -90,7 +93,7 @@
       <workItem from="1673335312082" duration="79842000" />
       <workItem from="1674112900670" duration="23667000" />
       <workItem from="1674545385064" duration="7891000" />
-      <workItem from="1674631751957" duration="4117000" />
+      <workItem from="1674631751957" duration="13175000" />
     </task>
     <task id="LOCAL-00001" summary="basic structure + Tag 16 &amp; 17">
       <created>1673365648425</created>
@@ -204,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674554560033</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Tag 28 (6.3): Vererbung">
+      <created>1674639077634</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1674639077634</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +247,8 @@
     <MESSAGE value="Tag 25 (5.5): Praxis: Hangman" />
     <MESSAGE value="Tag 26 (5.5): Praxis: Hangman" />
     <MESSAGE value="Tag 27 (6.2): Konstruktoren" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tag 27 (6.2): Konstruktoren" />
+    <MESSAGE value="Tag 28 (6.3): Vererbung" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tag 28 (6.3): Vererbung" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -266,16 +277,6 @@
           <url>file://$PROJECT_DIR$/Tag-27/src/main.kt</url>
           <line>4</line>
           <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/Tag-28/src/Fahrrad/main.kt</url>
-          <line>9</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/Tag-28/src/Fahrrad/main.kt</url>
-          <line>5</line>
-          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
