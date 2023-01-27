@@ -16,6 +16,16 @@ class User {
         return password == input
     }
 
+    fun passAendern(altesPassword: String){
+        if (altesPassword == this.password){
+            println("Geben sie ihr neues Passwort ein!")
+            this.password = readln()
+        }
+    }
+
+    fun passwortVergessen(){
+
+    }
 
 }
 

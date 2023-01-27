@@ -4,6 +4,24 @@ class Konto (var kontoinhaber: String) {
     private var kontostand: Double = 0.0
     private var userPIN: String = "1234"
 
+    // getter
+    fun getKontostand(): Double{
+        println("Geben sie ihre PIN ein:")
+        var input = readln()
+
+        if (input == userPIN)
+            return kontostand
+        else
+            return 0.0
+    }
+
+    // setter
+    fun setKontostand(neuerKontostand: Double){
+        if (neuerKontostand > 0 )
+            kontostand = neuerKontostand
+    }
+
+
     fun kontoStandAusgeben(): Double{
         return kontostand
     }
