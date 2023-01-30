@@ -1,9 +1,9 @@
 class Karte(val farbe: String,
-            val wert: String) {
+            var zahl: String) {
 
     fun wert(): Int{
-
-        return when(this.wert){
+        return when(this.zahl){
+            "1" -> 1
             "2" -> 2
             "3" -> 3
             "4" -> 4
@@ -20,8 +20,13 @@ class Karte(val farbe: String,
 
     }
 
+    fun assZuEins(){
+        if (zahl == "A")
+            zahl = "1"
+    }
+
     override fun toString(): String {
-        return "$farbe $wert"
+        return "$farbe ${if (zahl=="1") "A" else zahl}"
     }
 
 }
