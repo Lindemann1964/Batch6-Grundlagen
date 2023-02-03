@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99d7232e-cb0c-4bec-83a2-5061b5617b1b" name="Changes" comment="Tag 31 (7.1): Updates fuer das BlackJack Spiel (in Tag30)">
-      <change afterPath="$PROJECT_DIR$/Tag-32/Tag-32.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-32/src/BreakUndContinue.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-32/src/For.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-32/src/While.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-33/Tag-33.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-33/src/Items/Armor.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-33/src/Items/Item.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-33/src/Items/Potion.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-33/src/Items/Weapon.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-33/src/Player.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-33/src/test.kt" afterDir="false" />
+    <list default="true" id="99d7232e-cb0c-4bec-83a2-5061b5617b1b" name="Changes" comment="Tag 33 (7.3): Klassen, Konstruktoren, Vererbung">
+      <change afterPath="$PROJECT_DIR$/Tag-35/Tag-35.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tag-35/src/Booleans.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -47,19 +38,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "19",
-    "last_opened_file_path": "/Users/glucas/Documents/Projects/Modul-2-Grundlagen/Batch-6/Tag-33/src",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/glucas/Documents/Projects/Modul-2-Grundlagen/Batch-6/Tag-33/src&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Tag-33/src" />
@@ -80,20 +71,6 @@
       <recent name="Pizzaria" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="BlackjackKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BlackjackKt" />
-      <module name="Tag-30" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Kotlin.BlackjackKt" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -108,7 +85,8 @@
       <workItem from="1674112900670" duration="23667000" />
       <workItem from="1674545385064" duration="7891000" />
       <workItem from="1674631751957" duration="22602000" />
-      <workItem from="1675072484231" duration="22518000" />
+      <workItem from="1675072484231" duration="24864000" />
+      <workItem from="1675330562093" duration="6147000" />
     </task>
     <task id="LOCAL-00001" summary="basic structure + Tag 16 &amp; 17">
       <created>1673365648425</created>
@@ -250,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675082287787</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Tag 33 (7.3): Klassen, Konstruktoren, Vererbung">
+      <created>1675241748730</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1675241748731</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,7 +272,8 @@
     <MESSAGE value="Tag 29 (6.4): Abhängigkeiten von Klassen" />
     <MESSAGE value="Tag 30 (6.5): Kapselung" />
     <MESSAGE value="Tag 31 (7.1): Updates fuer das BlackJack Spiel (in Tag30)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tag 31 (7.1): Updates fuer das BlackJack Spiel (in Tag30)" />
+    <MESSAGE value="Tag 33 (7.3): Klassen, Konstruktoren, Vererbung" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tag 33 (7.3): Klassen, Konstruktoren, Vererbung" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
