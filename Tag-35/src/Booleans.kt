@@ -2,6 +2,16 @@ import kotlin.math.round
 
 open class Produkt(val name: String, var preis: Double){
     var sonderAktion: Boolean = false
+
+    override fun equals(other: Any?): Boolean {
+
+        if (other is Produkt){
+            return this.name == other.name && this.preis == other.preis
+        }
+        return super.equals(other)
+    }
+
+
 }
 
 class Getraenk(name: String, preis: Double): Produkt(name, preis){
@@ -42,95 +52,106 @@ class Getraenk(name: String, preis: Double): Produkt(name, preis){
 
 fun main(){
 
-    val sortiment = mutableMapOf<Produkt, Int>(
-        Produkt("Nutella", 3.99) to 5,
-        Produkt("Marmelade", 1.32) to 9,
-        Produkt("Butter", 0.87) to 12,
-        Produkt("Margarine", 0.55) to 8,
-        Produkt("Müsli", 2.99) to 4,
-        Produkt("Cornflakes", 0.99) to 5,
-        Getraenk("Bier: Augustiner Hell", 1.45) to 32,
-        Getraenk("Bier: Jever", 1.20) to 32,
-        Getraenk("Erdinger Weisbier", 1.45) to 32,
-        Getraenk("Rotwein", 6.99) to 3,
-        Getraenk("Weiswein", 4.49) to 4,
-        Getraenk("Coca Cola 1l", 1.99) to 5,
-        Getraenk("Coca Cola 0.5l", 1.00) to 13,
-        Getraenk("Kirschlikör", 8.99) to 2,
-        Getraenk("Obstbrand", 9.99) to 3
-    )
 
-    val einkaufsWagen = mutableMapOf<Produkt, Int>()
+    val a = Produkt("Test", 1.0)
+    val b = Produkt("Test", 1.0)
 
+    println(a == b)
 
-    do {
-        val produkt = produktWahl(sortiment)
+    println(a === b)
 
-        if (produkt in einkaufsWagen.keys)
-            einkaufsWagen[produkt] = einkaufsWagen[produkt]!! + 1
-        else
-            einkaufsWagen[produkt] = 1
+    print(1 == 1)
 
-
-        println("\nMöchten sie weiter einkaufen? (J/N)")
-        val eingabe = readln().lowercase()
-    } while(eingabe != "n")
-
-
-
-    // Kauft der Nutzer Nutella? (Nutella 2 zum Preis von 1)
-    for (einkauf in einkaufsWagen){
-        val produkt = einkauf.key
-        var anzahl = einkauf.value
-
-        if (produkt.name == "Nutella"){
-            if (anzahl >= 2){
-                einkaufsWagen[Produkt("2f1 Nutella", -produkt.preis)] = anzahl/2
-            }
-            /*
-                1 / 2 = 0
-                2 / 2 = 1
-                3 / 2 = 1
-                4 / 2 = 2
-             */
-        }
-    }
-
-
-
-
-    var kauftAlkohol: Boolean = false
-    for (produkt in einkaufsWagen.keys){
-        if (produkt is Getraenk){ // produkt == Getraenk
-            if (produkt.alkoholisch){
-                kauftAlkohol = true
-                break
-            }
-        }
-    }
-
-
-    /*
-        var i = 50
-        i is Int
-        i is Double
-        i is Produkt
-
-        i == 50
-     */
-
-    if (kauftAlkohol){
-        println("Sie versuchen Alkohol zu kaufen. Wie alt sind sie?")
-        var alter = readln().toInt()
-
-        if (alter >= 18){
-            println("Sie dürfen den Alkohol kaufen")
-        }
-        else
-            println("Sie dürfen den Alkohol nicht kaufen")
-    }
-
-    println("Der Gesamtpreis ihres Einkaufs beträgt: ${gesamtPreis(einkaufsWagen)}")
+//
+//    val sortiment = mutableMapOf<Produkt, Int>(
+//        Produkt("Nutella", 3.99) to 5,
+//        Produkt("Marmelade", 1.32) to 9,
+//        Produkt("Butter", 0.87) to 12,
+//        Produkt("Margarine", 0.55) to 8,
+//        Produkt("Müsli", 2.99) to 4,
+//        Produkt("Cornflakes", 0.99) to 5,
+//        Getraenk("Bier: Augustiner Hell", 1.45) to 32,
+//        Getraenk("Bier: Jever", 1.20) to 32,
+//        Getraenk("Erdinger Weisbier", 1.45) to 32,
+//        Getraenk("Rotwein", 6.99) to 3,
+//        Getraenk("Weiswein", 4.49) to 4,
+//        Getraenk("Coca Cola 1l", 1.99) to 5,
+//        Getraenk("Coca Cola 0.5l", 1.00) to 13,
+//        Getraenk("Kirschlikör", 8.99) to 2,
+//        Getraenk("Obstbrand", 9.99) to 3
+//    )
+//
+//    val einkaufsWagen = mutableMapOf<Produkt, Int>()
+//
+//
+//    do {
+//        val produkt = produktWahl(sortiment)
+//
+//        if (produkt in einkaufsWagen.keys)
+//            einkaufsWagen[produkt] = einkaufsWagen[produkt]!! + 1
+//        else
+//            einkaufsWagen[produkt] = 1
+//
+//
+//        println("\nMöchten sie weiter einkaufen? (J/N)")
+//        val eingabe = readln().lowercase()
+//    } while(eingabe != "n")
+//
+//
+//
+//    // Kauft der Nutzer Nutella? (Nutella 2 zum Preis von 1)
+//    for (einkauf in einkaufsWagen){
+//        val produkt = einkauf.key
+//        var anzahl = einkauf.value
+//
+//        if (produkt.name == "Nutella"){
+//            if (anzahl >= 2){
+//                einkaufsWagen[Produkt("2f1 Nutella", -produkt.preis)] = anzahl/2
+//            }
+//            /*
+//                1 / 2 = 0
+//                2 / 2 = 1
+//                3 / 2 = 1
+//                4 / 2 = 2
+//             */
+//        }
+//    }
+//
+//
+//
+//
+//    var kauftAlkohol: Boolean = false
+//    for (produkt in einkaufsWagen.keys){
+//        if (produkt is Getraenk){ // produkt == Getraenk
+//            if (produkt.alkoholisch){
+//                kauftAlkohol = true
+//                break
+//            }
+//        }
+//    }
+//
+//
+//    /*
+//        var i = 50
+//        i is Int
+//        i is Double
+//        i is Produkt
+//
+//        i == 50
+//     */
+//
+//    if (kauftAlkohol){
+//        println("Sie versuchen Alkohol zu kaufen. Wie alt sind sie?")
+//        var alter = readln().toInt()
+//
+//        if (alter >= 18){
+//            println("Sie dürfen den Alkohol kaufen")
+//        }
+//        else
+//            println("Sie dürfen den Alkohol nicht kaufen")
+//    }
+//
+//    println("Der Gesamtpreis ihres Einkaufs beträgt: ${gesamtPreis(einkaufsWagen)}")
 
 }
 

@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99d7232e-cb0c-4bec-83a2-5061b5617b1b" name="Changes" comment="Tag 33 (7.3): Klassen, Konstruktoren, Vererbung">
-      <change afterPath="$PROJECT_DIR$/Tag-35/Tag-35.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tag-35/src/Booleans.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="99d7232e-cb0c-4bec-83a2-5061b5617b1b" name="Changes" comment="Tag 35 (7.5): Booleans, Verzweigungen, Verknüpfung, Bedingungen">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tag-35/src/Booleans.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Tag-35/src/Booleans.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +83,7 @@
       <workItem from="1674545385064" duration="7891000" />
       <workItem from="1674631751957" duration="22602000" />
       <workItem from="1675072484231" duration="24864000" />
-      <workItem from="1675330562093" duration="6147000" />
+      <workItem from="1675330562093" duration="8392000" />
     </task>
     <task id="LOCAL-00001" summary="basic structure + Tag 16 &amp; 17">
       <created>1673365648425</created>
@@ -235,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675241748731</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Tag 35 (7.5): Booleans, Verzweigungen, Verknüpfung, Bedingungen">
+      <created>1675415648616</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1675415648616</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,7 +277,8 @@
     <MESSAGE value="Tag 30 (6.5): Kapselung" />
     <MESSAGE value="Tag 31 (7.1): Updates fuer das BlackJack Spiel (in Tag30)" />
     <MESSAGE value="Tag 33 (7.3): Klassen, Konstruktoren, Vererbung" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tag 33 (7.3): Klassen, Konstruktoren, Vererbung" />
+    <MESSAGE value="Tag 35 (7.5): Booleans, Verzweigungen, Verknüpfung, Bedingungen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tag 35 (7.5): Booleans, Verzweigungen, Verknüpfung, Bedingungen" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
